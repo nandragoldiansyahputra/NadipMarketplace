@@ -331,7 +331,7 @@ if (isset($_POST['simpan'])) {
 
         <h1>➕ Tambah Produk</h1>
 
-        <p> Masukkan informasi produk yang ingin ditambahkan ke nadip. </p>
+        <p> Masukkan informasi produk yang ingin ditambahkan ke Nadip. </p>
 
 
         <?php if (isset($pesan)) { ?>
@@ -342,7 +342,7 @@ if (isset($_POST['simpan'])) {
 
         <?php } ?>
 
-
+        
         <form method="POST" enctype="multipart/form-data">
 
             <div class="form-group">
@@ -374,10 +374,6 @@ if (isset($_POST['simpan'])) {
                 <label>Kategori</label>
 
                 <select name="kategori">
-
-                    <option value="">
-                        -- Pilih Kategori --
-                    </option>
 
                     <option value="Fashion">
                         Fashion
